@@ -69,3 +69,4 @@ func _process(_delta: float) -> void:
 #ok godot fuk u
 func _on_ihategodotinitnalization_timeout() -> void:
 	canIgoyet = true
+#test ignore this
