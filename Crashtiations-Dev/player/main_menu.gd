@@ -31,4 +31,4 @@ func _on_tutorial_pressed() -> void:
 	get_node("/root/RevolverVariables").curBullets = 6
 	get_node("/root/RevolverVariables").reloading = false
 	
-	get_tree().change_scene_to_file("res://scenes/world.tscn")
+	get_tree().change_scene_to_file("res://scenes/level_1.tscn")
