@@ -1,14 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://bn4is8cy1f5a4"]
+[gd_scene load_steps=4 format=3 uid="uid://5ec0b6a6qpiq"]
 
-[ext_resource type="Script" path="res://area_2d.gd" id="1_kyof4"]
-[ext_resource type="Texture2D" uid="uid://dksbxqm6cye2a" path="res://art/mp7quierese_64x64.jpg" id="2_ek73x"]
+[ext_resource type="Script" path="res://GameplayElementsScenes/level_complete_trigger.gd" id="1_dft1f"]
+[ext_resource type="Texture2D" uid="uid://4lftcn0sx47x" path="res://art/g11what.jpg" id="2_pj22p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2uynq"]
 
-[node name="ZombieTriggerZone" type="Area2D"]
+[node name="Level_Complete_Trigger" type="Area2D"]
 collision_layer = 2
 collision_mask = 2
-script = ExtResource("1_kyof4")
+script = ExtResource("1_dft1f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_2uynq")
@@ -18,9 +18,8 @@ offset_left = -10.0
 offset_top = -10.0
 offset_right = 10.0
 offset_bottom = 10.0
-texture = ExtResource("2_ek73x")
+texture = ExtResource("2_pj22p")
 expand_mode = 1
-stretch_mode = 4
 metadata/_edit_use_anchors_ = true
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
