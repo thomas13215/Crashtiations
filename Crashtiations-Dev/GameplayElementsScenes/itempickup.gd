@@ -26,17 +26,19 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		if itemType == "medpack":
 			#I am a medpack!
 			#heal player by 1 heart
-			var playerVar = get_node("/root/PlayerVariables")
+			#var playerVar = get_node("/root/PlayerVariables")
 			
 			#Dont do anything if player is at max hp
 			if get_node("/root/PlayerVariables").Health != 3.0:
-					playerVar.Health += 1.0
+					get_node("/root/PlayerVariables").Health += 1.0
 					#print("health: " + str(playerVar.Health))
 					$Heal.play()
 					visible = false
 					await $Heal.finished
 					#delete
 					queue_free()
+			else:
+				db = false
 			
 		elif itemType == "revAmmo":
 			#I am revolver Ammo!!!!
