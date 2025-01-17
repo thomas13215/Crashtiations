@@ -74,3 +74,4 @@ text = "Level 1"
 [connection signal="pressed" from="Start_Button" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Exit_Button" to="." method="_on_exit_button_pressed"]
 [connection signal="pressed" from="Tutorial" to="." method="_on_tutorial_pressed"]
+[connection signal="pressed" from="Level1" to="." method="_on_level_1_pressed"]
