@@ -96,6 +96,9 @@ tile_set = SubResource("TileSet_4mj6w")
 [node name="HUD" parent="." instance=ExtResource("3_kx6vh")]
 position = Vector2(0, -1)
 
+[node name="Player" parent="." instance=ExtResource("2_lqh3e")]
+position = Vector2(123, 70)
+
 [node name="Label" type="Label" parent="."]
 offset_left = 37.0
 offset_top = 21.0
@@ -163,6 +166,3 @@ position = Vector2(30, 348)
 [node name="DialogueTrigger" parent="." instance=ExtResource("7_nnjkm")]
 position = Vector2(326, 247)
 Dialogue = "That was easy"
-
-[node name="Player" parent="." instance=ExtResource("2_lqh3e")]
-position = Vector2(123, 70)

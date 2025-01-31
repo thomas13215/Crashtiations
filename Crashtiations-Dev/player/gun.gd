@@ -3,7 +3,7 @@ extends Sprite2D
 #Some gun variables are globals (Revolver_Variables) noob 
 @onready var revolver_global = get_node("/root/RevolverVariables")
 @onready var gunAnim = $GunAnim 
-var gunActive = false  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
+var gunActive = true  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
 var bullet_speed = 2000
 var bullet = preload("res://player/bullet.tscn")
 
@@ -40,6 +40,7 @@ var cooldown = false
 
 #shoot gun 
 func fire():
+	
 	if gunActive and not cooldown and not revolver_global.reloading and not revolver_global.curBullets == 0 and get_node("/root/PlayerVariables").Alive:
 		cooldown = true #db
 		

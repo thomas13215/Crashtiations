@@ -71,7 +71,17 @@ offset_right = 296.0
 offset_bottom = 151.0
 text = "Level 1"
 
+[node name="Level2" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 310.0
+offset_top = 105.0
+offset_right = 423.0
+offset_bottom = 150.0
+text = "Level 2"
+
 [connection signal="pressed" from="Start_Button" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Exit_Button" to="." method="_on_exit_button_pressed"]
 [connection signal="pressed" from="Tutorial" to="." method="_on_tutorial_pressed"]
 [connection signal="pressed" from="Level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="Level2" to="." method="_on_level_2_pressed"]
