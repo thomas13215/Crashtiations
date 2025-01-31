@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpc1ll0t2b6vo"]
+
+[ext_resource type="Texture2D" uid="uid://426tsl7odph3" path="res://art/salmon.png" id="1_koueb"]
+[ext_resource type="Script" path="res://GameplayElementsScenes/dialogue_trigger.gd" id="1_vdm0v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2axhm"]
+
+[node name="DialogueTrigger" type="Area2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_vdm0v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_2axhm")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+texture = ExtResource("1_koueb")
+expand_mode = 1
+stretch_mode = 4
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

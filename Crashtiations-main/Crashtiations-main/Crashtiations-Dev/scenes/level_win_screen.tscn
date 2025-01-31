@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbyk3ecjewtge"]
+
+[ext_resource type="Texture2D" uid="uid://dvk3i8q2wsbk2" path="res://art/winscreen.png" id="1_3iy0r"]
+[ext_resource type="Script" path="res://scenes/level_win_screen.gd" id="1_hofi3"]
+
+[node name="Level_Win_Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hofi3")
+
+[node name="Wallpaper" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 641.0
+offset_bottom = 362.0
+texture = ExtResource("1_3iy0r")
+expand_mode = 1
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 145.0
+offset_top = 10.0
+offset_right = 497.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 36
+text = "Level Complete"
+horizontal_alignment = 1
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 131.0
+offset_right = 466.0
+offset_bottom = 204.0
+theme_override_font_sizes/font_size = 24
+text = "Return To Main Menu"
+
+[node name="RandomQuote" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]
