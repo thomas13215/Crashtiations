@@ -6,8 +6,7 @@ extends CharacterBody2D
 @onready var animations = $AnimationPlayer
 
 func _ready() -> void:
-	if not gunActive:
-		$Gun.visible = false
+	pass
 
 #get input from player
 func handleInput():

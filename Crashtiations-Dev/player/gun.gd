@@ -3,7 +3,7 @@ extends Sprite2D
 #Some gun variables are globals (Revolver_Variables) noob 
 @onready var revolver_global = get_node("/root/RevolverVariables")
 @onready var gunAnim = $GunAnim 
-var gunActive = true  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
+var gunActive = false  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
 var bullet_speed = 2000
 var bullet = preload("res://player/bullet.tscn")
 
@@ -12,8 +12,10 @@ var bullet = preload("res://player/bullet.tscn")
 #start WaitCheck again if you want to renable the gun or some
 func _on_wait_check_timeout() -> void:
 	#print(self.visible)
-	if self.visible:
-		gunActive = true
+	if revolver_global.active:
+		self.visible = true
+	else:
+		self.visible = false
 		
 #Gun rotation, IHATE GODOT!!!! :DDD
 
@@ -41,7 +43,7 @@ var cooldown = false
 #shoot gun 
 func fire():
 	
-	if gunActive and not cooldown and not revolver_global.reloading and not revolver_global.curBullets == 0 and get_node("/root/PlayerVariables").Alive:
+	if revolver_global.active and not cooldown and not revolver_global.reloading and not revolver_global.curBullets == 0 and get_node("/root/PlayerVariables").Alive:
 		cooldown = true #db
 		
 		gunAnim.play("Shoot")
@@ -58,13 +60,13 @@ func fire():
 		#start cooldown
 		$Cooldown.start() 
 		
-	elif gunActive and not cooldown and not revolver_global.reloading and revolver_global.curBullets == 0: #horrible way to do this but  wahtebrer
+	elif revolver_global.active and not cooldown and not revolver_global.reloading and revolver_global.curBullets == 0: #horrible way to do this but  wahtebrer
 		cooldown = true #db
 		$NoAmmo.play()
 		$Cooldown.start() #start cooldown
 	
 func reload():
-	if gunActive and not revolver_global.reloading and not revolver_global.curBullets == 6 and not revolver_global.reserveAmmo == 0:
+	if revolver_global.active and not revolver_global.reloading and not revolver_global.curBullets == 6 and not revolver_global.reserveAmmo == 0:
 		revolver_global.reloading = true #db
 		$Reload.play()
 		await $Reload.finished
