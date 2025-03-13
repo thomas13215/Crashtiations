@@ -199,6 +199,7 @@ shape = SubResource("CapsuleShape2D_csk78")
 
 [node name="Dialogue" type="Label" parent="."]
 visible = false
+z_index = 4
 offset_left = -97.0
 offset_top = -121.0
 offset_right = 99.0

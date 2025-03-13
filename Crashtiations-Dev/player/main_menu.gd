@@ -41,7 +41,7 @@ func _on_tutorial_pressed() -> void:
 
 #level 1 pressed still has gun eneabled even when gunActive not marked
 func _on_level_1_pressed() -> void:
-	levelStart("res://scenes/level1.tscn", false)
+	levelStart("res://scenes/level3.tscn", true)
 
 
 func _on_level_2_pressed() -> void:
