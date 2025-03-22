@@ -42,8 +42,8 @@ var cooldown = false
 
 #shoot gun 
 func fire():
-	
-	if revolver_global.active and not cooldown and not revolver_global.reloading and not revolver_global.curBullets == 0 and get_node("/root/PlayerVariables").Alive:
+	#checks if the player is alive and revolver stuff
+	if get_node("/root/PlayerVariables").Alive and revolver_global.active and not cooldown and not revolver_global.reloading and not revolver_global.curBullets == 0:
 		cooldown = true #db
 		
 		gunAnim.play("Shoot")

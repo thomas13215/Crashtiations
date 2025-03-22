@@ -798,7 +798,6 @@ Dialogue = "Should go check on the crops."
 
 [node name="Player" parent="." instance=ExtResource("5_bk87c")]
 position = Vector2(29, 58)
-gunActive = false
 
 [node name="DialogueTrigger2" parent="." instance=ExtResource("4_kgwh8")]
 position = Vector2(137, 216)

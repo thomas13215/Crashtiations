@@ -1,0 +1,428 @@
+[gd_scene load_steps=11 format=4 uid="uid://dlmkwq0jpq7br"]
+
+[ext_resource type="Texture2D" uid="uid://b5vxh4ybdfw25" path="res://art/City Prop Tileset update 2.png" id="1_xm7lu"]
+[ext_resource type="PackedScene" uid="uid://cffwcdg1os86r" path="res://GameplayElementsScenes/hud.tscn" id="2_ve70s"]
+[ext_resource type="PackedScene" uid="uid://57kg78vgnbw5" path="res://player/player.tscn" id="3_k5tsw"]
+[ext_resource type="PackedScene" uid="uid://cs8d1rbs4cdee" path="res://GameplayElementsScenes/itempickup.tscn" id="4_v61ef"]
+[ext_resource type="PackedScene" uid="uid://bpc1ll0t2b6vo" path="res://GameplayElementsScenes/dialogue_trigger.tscn" id="5_yk1q3"]
+[ext_resource type="PackedScene" uid="uid://5ec0b6a6qpiq" path="res://GameplayElementsScenes/level_complete_trigger.tscn" id="6_ke7lc"]
+[ext_resource type="PackedScene" uid="uid://8jjfnwimn4lp" path="res://GameplayElementsScenes/zombie.tscn" id="7_6ywhx"]
+[ext_resource type="PackedScene" uid="uid://bn4is8cy1f5a4" path="res://GameplayElementsScenes/zombie_trigger_zone.tscn" id="8_i8wnh"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ajfe0"]
+texture = ExtResource("1_xm7lu")
+7:14/0 = 0
+8:14/0 = 0
+8:14/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:14/0 = 0
+0:0/size_in_atlas = Vector2i(3, 2)
+0:0/0 = 0
+0:0/0/z_index = 1
+3:0/size_in_atlas = Vector2i(1, 3)
+3:0/0 = 0
+3:0/0/z_index = 1
+0:2/size_in_atlas = Vector2i(1, 3)
+0:2/0 = 0
+0:2/0/z_index = 1
+28:0/size_in_atlas = Vector2i(4, 6)
+28:0/0 = 0
+28:6/size_in_atlas = Vector2i(4, 6)
+28:6/0 = 0
+24:4/size_in_atlas = Vector2i(4, 4)
+24:4/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+8:15/0 = 0
+7:15/0 = 0
+9:15/0 = 0
+12:12/size_in_atlas = Vector2i(4, 4)
+12:12/0 = 0
+16:12/size_in_atlas = Vector2i(4, 4)
+16:12/0 = 0
+24:8/size_in_atlas = Vector2i(4, 4)
+24:8/0 = 0
+12:4/size_in_atlas = Vector2i(4, 4)
+12:4/0 = 0
+4:8/size_in_atlas = Vector2i(4, 4)
+4:8/0 = 0
+10:14/size_in_atlas = Vector2i(2, 2)
+10:14/0 = 0
+10:12/size_in_atlas = Vector2i(2, 2)
+10:12/0 = 0
+18:16/size_in_atlas = Vector2i(2, 4)
+18:16/0 = 0
+18:16/0/z_index = 1
+20:16/size_in_atlas = Vector2i(2, 4)
+20:16/0 = 0
+20:16/0/z_index = 1
+22:16/0 = 0
+23:16/0 = 0
+24:16/0 = 0
+23:17/0 = 0
+22:17/0 = 0
+22:18/0 = 0
+22:19/0 = 0
+23:18/size_in_atlas = Vector2i(1, 2)
+23:18/0 = 0
+24:17/size_in_atlas = Vector2i(1, 3)
+24:17/0 = 0
+25:18/size_in_atlas = Vector2i(1, 2)
+25:18/0 = 0
+26:18/size_in_atlas = Vector2i(1, 2)
+26:18/0 = 0
+27:17/size_in_atlas = Vector2i(1, 3)
+27:17/0 = 0
+26:17/0 = 0
+25:17/0 = 0
+25:16/0 = 0
+26:16/0 = 0
+27:16/0 = 0
+24:20/size_in_atlas = Vector2i(1, 2)
+24:20/0 = 0
+25:20/size_in_atlas = Vector2i(3, 2)
+25:20/0 = 0
+27:22/0 = 0
+28:22/0 = 0
+28:23/0 = 0
+27:23/0 = 0
+26:22/0 = 0
+26:22/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -8, 8, 8, 8, 8, -8, -8, -8)
+25:22/0 = 0
+24:22/0 = 0
+24:23/0 = 0
+24:23/0/z_index = 1
+24:23/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+25:23/0 = 0
+25:23/0/z_index = 1
+25:23/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+26:23/0 = 0
+26:23/0/z_index = 1
+26:23/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+23:22/0 = 0
+23:21/0 = 0
+23:20/0 = 0
+20:20/size_in_atlas = Vector2i(3, 2)
+20:20/0 = 0
+20:20/0/z_index = 1
+20:20/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+20:22/size_in_atlas = Vector2i(3, 1)
+20:22/0 = 0
+18:20/size_in_atlas = Vector2i(2, 2)
+18:20/0 = 0
+18:22/size_in_atlas = Vector2i(2, 2)
+18:22/0 = 0
+10:20/0 = 0
+11:20/0 = 0
+12:20/0 = 0
+13:20/0 = 0
+14:20/0 = 0
+15:20/0 = 0
+16:20/0 = 0
+16:21/0 = 0
+16:22/0 = 0
+15:22/0 = 0
+14:22/0 = 0
+13:22/0 = 0
+12:22/0 = 0
+11:21/0 = 0
+10:21/0 = 0
+12:21/0 = 0
+13:21/0 = 0
+14:21/0 = 0
+15:21/0 = 0
+11:22/0 = 0
+10:22/0 = 0
+11:23/0 = 0
+12:23/0 = 0
+13:23/0 = 0
+14:23/0 = 0
+15:23/0 = 0
+16:23/0 = 0
+17:23/0 = 0
+17:21/0 = 0
+17:20/0 = 0
+10:23/0 = 0
+2:20/size_in_atlas = Vector2i(2, 3)
+2:20/0 = 0
+2:20/0/z_index = 1
+0:20/size_in_atlas = Vector2i(2, 3)
+0:20/0 = 0
+0:20/0/z_index = 1
+4:21/size_in_atlas = Vector2i(1, 2)
+4:21/0 = 0
+5:22/size_in_atlas = Vector2i(1, 2)
+5:22/0 = 0
+5:22/0/z_index = 1
+6:22/size_in_atlas = Vector2i(1, 2)
+6:22/0 = 0
+6:22/0/z_index = 1
+7:22/size_in_atlas = Vector2i(1, 2)
+7:22/0 = 0
+7:22/0/z_index = 1
+8:22/size_in_atlas = Vector2i(1, 2)
+8:22/0 = 0
+8:22/0/z_index = 1
+8:20/size_in_atlas = Vector2i(1, 2)
+8:20/0 = 0
+7:20/size_in_atlas = Vector2i(1, 2)
+7:20/0 = 0
+9:20/0 = 0
+9:21/0 = 0
+6:21/0 = 0
+4:18/size_in_atlas = Vector2i(3, 3)
+4:18/0 = 0
+4:18/0/z_index = 1
+7:16/size_in_atlas = Vector2i(3, 4)
+7:16/0 = 0
+7:16/0/z_index = 1
+7:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-23.6881, -31.8198, 22.981, -32.5269, 24.4997, 32.9633, -24.4997, 33.8542, -23.6881, -32.1734)
+10:16/size_in_atlas = Vector2i(4, 4)
+10:16/0 = 0
+10:16/0/z_index = 1
+10:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.0724, -32.0724, -32.0724, 32.5178, 32.9633, 32.0723, 31.6269, -31.6269, -32.9633, -32.5178)
+14:16/size_in_atlas = Vector2i(4, 4)
+14:16/0 = 0
+14:16/0/z_index = 1
+14:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.1449, -15.4772, -32.9386, -31.748, 31.3512, -32.1449, 32.5178, 32.0723, -32.5178, 32.5178, -31.3512, -15.874)
+4:16/size_in_atlas = Vector2i(1, 2)
+4:16/0 = 0
+4:16/0/z_index = 1
+5:16/size_in_atlas = Vector2i(1, 2)
+5:16/0 = 0
+5:16/0/z_index = 1
+6:16/size_in_atlas = Vector2i(1, 2)
+6:16/0 = 0
+6:16/0/z_index = 1
+2:14/size_in_atlas = Vector2i(2, 3)
+2:14/0 = 0
+2:14/0/z_index = 1
+0:14/size_in_atlas = Vector2i(2, 3)
+0:14/0 = 0
+0:14/0/z_index = 1
+0:17/size_in_atlas = Vector2i(2, 3)
+0:17/0 = 0
+0:17/0/z_index = 1
+2:17/size_in_atlas = Vector2i(2, 3)
+2:17/0 = 0
+2:17/0/z_index = 1
+2:11/size_in_atlas = Vector2i(2, 3)
+2:11/0 = 0
+2:11/0/z_index = 1
+0:11/size_in_atlas = Vector2i(2, 3)
+0:11/0 = 0
+0:11/0/z_index = 1
+2:8/size_in_atlas = Vector2i(1, 3)
+2:8/0 = 0
+2:8/0/z_index = 1
+3:8/size_in_atlas = Vector2i(1, 3)
+3:8/0 = 0
+3:8/0/z_index = 1
+1:8/size_in_atlas = Vector2i(1, 3)
+1:8/0 = 0
+1:8/0/z_index = 1
+0:8/size_in_atlas = Vector2i(1, 3)
+0:8/0 = 0
+0:8/0/z_index = 1
+0:5/size_in_atlas = Vector2i(2, 3)
+0:5/0 = 0
+0:5/0/z_index = 1
+2:5/size_in_atlas = Vector2i(2, 3)
+2:5/0 = 0
+2:5/0/z_index = 1
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+5:15/0 = 0
+4:14/0 = 0
+6:15/0 = 0
+4:15/0 = 0
+6:13/0 = 0
+16:8/size_in_atlas = Vector2i(4, 4)
+16:8/0 = 0
+12:8/size_in_atlas = Vector2i(4, 4)
+12:8/0 = 0
+20:4/size_in_atlas = Vector2i(4, 3)
+20:4/0 = 0
+20:7/size_in_atlas = Vector2i(4, 2)
+20:7/0 = 0
+20:9/size_in_atlas = Vector2i(4, 3)
+20:9/0 = 0
+20:0/size_in_atlas = Vector2i(4, 4)
+20:0/0 = 0
+24:0/size_in_atlas = Vector2i(4, 4)
+24:0/0 = 0
+16:0/size_in_atlas = Vector2i(4, 4)
+16:0/0 = 0
+16:4/size_in_atlas = Vector2i(4, 4)
+16:4/0 = 0
+8:0/size_in_atlas = Vector2i(4, 4)
+8:0/0 = 0
+12:0/size_in_atlas = Vector2i(4, 4)
+12:0/0 = 0
+8:4/size_in_atlas = Vector2i(4, 3)
+8:4/0 = 0
+8:7/size_in_atlas = Vector2i(4, 2)
+8:7/0 = 0
+8:9/size_in_atlas = Vector2i(4, 3)
+8:9/0 = 0
+4:0/size_in_atlas = Vector2i(4, 4)
+4:0/0 = 0
+4:4/size_in_atlas = Vector2i(4, 4)
+4:4/0 = 0
+20:12/size_in_atlas = Vector2i(4, 4)
+20:12/0 = 0
+24:12/size_in_atlas = Vector2i(4, 4)
+24:12/0 = 0
+31:23/0 = 0
+31:23/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -8, 8, 8, 8, 8, -8, -8, -8)
+
+[sub_resource type="TileSet" id="TileSet_a8ko5"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_ajfe0")
+
+[node name="Level7" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD//wAAAAAfABcAAAD//wEAAAAfABcAAAD//wIAAAAfABcAAAD//wMAAAAfABcAAAD//wQAAAAfABcAAAD//wUAAAAfABcAAAD//wYAAAAfABcAAAD//wcAAAAfABcAAAD//wgAAAAfABcAAAD//wkAAAAfABcAAAD//woAAAAfABcAAAD//wsAAAAfABcAAAD//wwAAAAfABcAAAD//w0AAAAfABcAAAD//w4AAAAfABcAAAD//w8AAAAfABcAAAD//xAAAAAfABcAAAD//xEAAAAfABcAAAD//xIAAAAZABcAAAD//xMAAAAfABcAAAD//xQAAAAfABcAAAD//xUAAAAfABcAAAD//xYAAAAfABcAAAD//xcAAAAfABcAAAAAABcAAAAfABcAAAABABcAAAAfABcAAAACABcAAAAfABcAAAADABcAAAAfABcAAAAEABcAAAAfABcAAAAFABcAAAAfABcAAAAGABcAAAAfABcAAAAHABcAAAAfABcAAAAIABcAAAAfABcAAAAJABcAAAAfABcAAAAKABcAAAAfABcAAAALABcAAAAfABcAAAAMABcAAAAfABcAAAANABcAAAAfABcAAAAOABcAAAAfABcAAAAPABcAAAAfABcAAAAQABcAAAAfABcAAAARABcAAAAfABcAAAASABcAAAAfABcAAAATABcAAAAfABcAAAAUABcAAAAfABcAAAAVABcAAAAfABcAAAAWABcAAAAfABcAAAAXABcAAAAfABcAAAAYABcAAAAfABcAAAAZABcAAAAfABcAAAAaABcAAAAfABcAAAAbABcAAAAfABcAAAAcABcAAAAfABcAAAAdABcAAAAfABcAAAAeABcAAAAfABcAAAAfABcAAAAfABcAAAAgABcAAAAfABcAAAAhABcAAAAfABcAAAAiABcAAAAfABcAAAAjABcAAAAfABcAAAAkABcAAAAfABcAAAAlABcAAAAfABcAAAAmABcAAAAfABcAAAAnABcAAAAfABcAAAAoABcAAAAfABcAAAAoABYAAAAfABcAAAAoABUAAAAfABcAAAAoABQAAAAfABcAAAAoABMAAAAfABcAAAAoABIAAAAfABcAAAAoABEAAAAIAA4AAAAoABAAAAAfABcAAAAoAA8AAAAfABcAAAAoAA4AAAAfABcAAAAoAA0AAAAfABcAAAAoAAwAAAAfABcAAAAoAAsAAAAfABcAAAAoAAoAAAAfABcAAAAoAAkAAAAfABcAAAAoAAgAAAAfABcAAAAoAAcAAAAfABcAAAAoAAYAAAAfABcAAAAoAAUAAAAfABcAAAAoAAQAAAAfABcAAAAoAAMAAAAfABcAAAAoAAIAAAAfABcAAAAoAAEAAAAfABcAAAAoAAAAAAAfABcAAAAoAP//AAAfABcAAAAnAP//AAAfABcAAAAmAP//AAAfABcAAAAlAP//AAAfABcAAAAkAP//AAAfABcAAAAjAP//AAAfABcAAAAiAP//AAAfABcAAAAhAP//AAAfABcAAAAgAP//AAAfABcAAAAfAP//AAAfABcAAAAeAP//AAAfABcAAAAdAP//AAAfABcAAAAcAP//AAAfABcAAAAbAP//AAAfABcAAAAaAP//AAAfABcAAAAZAP//AAAfABcAAAAYAP//AAAfABcAAAAXAP//AAAfABcAAAAWAP//AAAfABcAAAAVAP//AAAfABcAAAAUAP//AAAfABcAAAATAP//AAAfABcAAAASAP//AAAfABcAAAARAP//AAAfABcAAAAQAP//AAAfABcAAAAPAP//AAAfABcAAAAOAP//AAAfABcAAAANAP//AAAfABcAAAAMAP//AAAfABcAAAALAP//AAAfABcAAAAKAP//AAAfABcAAAAJAP//AAAfABcAAAAIAP//AAAfABcAAAAGAP//AAAfABcAAAAFAP//AAAfABcAAAACAP//AAAfABcAAAABAP//AAAfABcAAAAAAP//AAAfABcAAAD/////AAAfABcAAAAAAAIAAAAYAAQAAAD9/wIAAAAUAAcAAFD7/wIAAAAUAAcAAFD6/wIAAAAUAAcAAFD5/wIAAAAUAAcAAFD4/wIAAAAUAAcAAFD2/wIAAAAUAAcAAGADAAIAAAAUAAcAAGAFAAIAAAAQAAQAAFAJAAIAAAAQAAQAAFANAAIAAAAQAAQAAGARAAIAAAAQAAQAAGAVAAIAAAAQAAQAAFAZAAIAAAAQAAQAAFAdAAIAAAAQAAQAAGAhAAIAAAAQAAQAAGAlAAIAAAAYAAAAAGAlAAYAAAAEAAQAAAADAP//AAAfABcAAAAHAP//AAAfABcAAAAoAP7/AAAfABcAAAAaAP7/AAAfABcAAAAZAP7/AAAfABcAAAAYAP7/AAAfABcAAAAXAP7/AAAfABcAAAAWAP7/AAAfABcAAAAVAP7/AAAfABcAAAAUAP7/AAAfABcAAAAEAP//AAAfABcAAAAhAAYAAAAOABAAAAAdAAYAAAAHABAAAAAZAAYAAAAKABAAAAAUAAYAAAAOABAAAAAPAAYAAAAOABAAAAAKAAYAAAAOABAAAAAGAAYAAAAHABAAAAACAAYAAAAHABAAAAD+/wYAAAAHABAAAAD6/wYAAAAOABAAAAAlAAoAAAAYAAAAAAAhAAoAAAAEAAgAAAAdAAoAAAAEAAgAAAAZAAoAAAAQAAgAAAAVAAoAAAAQAAgAAAARAAoAAAAQAAgAAAANAAoAAAAQAAgAAAAJAAoAAAAEAAgAAAAFAAoAAAAEAAgAAAABAAoAAAAQAAgAAAD9/woAAAAQAAgAAAD5/woAAAAQAAgAAAACAAoAAAAUAAAAAFACAA0AAAAUAAcAAAACABAAAAAYAAAAAFAGABAAAAAQAAgAAAAKABAAAAAQAAgAAAAOABAAAAAQAAgAAAASABAAAAAQAAgAADAVABAAAAAQAAgAADAZABAAAAAQAAgAADAdABAAAAAYAAAAAGAdABQAAAAYAAAAAAAZABQAAAAQAAgAAAAVABQAAAAQAAgAAAARABQAAAAQAAgAAAANABQAAAAQAAgAAAAJABQAAAAQAAgAAAAFABQAAAAQAAgAAAABABQAAAAMAAgAAAAGAA0AAAAIAA4AAAAHAA0AAAAIAA4AAAAIAA0AAAAUABQAAAAKAA0AAAAIAA4AAAALAA0AAAAUABQAAAAMAA0AAAAIAA4AAAANAA0AAAAIAA4AAAAPAA0AAAAIAA4AAAAQAA0AAAAIAA4AAAASAA0AAAAIAA4AAAAVAA0AAAAIAA4AAAAWAA0AAAAIAA4AAAAXAA0AAAAUABQAAAAZAA0AAAAIAA4AAAAaAA0AAAAUABQAAAAbAA0AAAAIAA4AAAAdAA0AAAAUABQAAAAeAA0AAAAIAA4AAAAfAA0AAAAIAA4AAAAhAA0AAAAIAA4AAAAgAA8AAAAIAA4AAAAgABAAAAAIAA4AAAAgABEAAAAIAA4AAAAgABIAAAAIAA4AAAAgABMAAAAIAA4AAAAgABQAAAAIAA4AAAAgABUAAAAIAA4AAAAgABYAAAAIAA4AAAAhABUAAAAIAA4AAAAhABQAAAAIAA4AAAAhABMAAAAIAA4AAAAhABIAAAAIAA4AAAAhABEAAAAIAA4AAAAiABEAAAAIAA4AAAAjABEAAAAIAA4AAAAkABEAAAAIAA4AAAAlABEAAAAIAA4AAAAmABEAAAAIAA4AAAAnABEAAAAIAA4AAAAhABAAAAAIAA4AAAAiABAAAAAIAA4AAAAjABAAAAAIAA4AAAAkABAAAAAIAA4AAAAlABAAAAAIAA4AAAAmABAAAAAIAA4AAAAnABAAAAAIAA4AAAAnAA8AAAAIAA4AAAAnAA4AAAAIAA4AAAAnAA0AAAAIAA4AAAAmAA0AAAAIAA4AAAAlAA0AAAAIAA4AAAAkAA0AAAAIAA4AAAAjAA0AAAAIAA4AAAAiAA0AAAAIAA4AAAAhAA4AAAAIAA4AAAAhAA8AAAAIAA4AAAAiAA8AAAAIAA4AAAAjAA8AAAAIAA4AAAAkAA8AAAAIAA4AAAAlAA4AAAAIAA4AAAAkAA4AAAAIAA4AAAAjAA4AAAAIAA4AAAAiAA4AAAAIAA4AAAAlAA8AAAAIAA4AAAAmAA8AAAAIAA4AAAAmAA4AAAAIAA4AAAAfAAUAAAAIAA4AAAAfAAYAAAAIAA4AAAAfAAcAAAAIAA4AAAAbAAUAAAAIAA4AAAAbAAYAAAAIAA4AAAAbAAcAAAAIAA4AAAAYAAYAAAAIAA4AAAAXAAYAAAAIAA4AAAAWAAYAAAAIAA4AAAAWAAUAAAAIAA4AAAAWAAcAAAAIAA4AAAARAAUAAAAIAA4AAAASAAUAAAAIAA4AAAASAAYAAAAIAA4AAAASAAcAAAAIAA4AAAARAAcAAAAIAA4AAAARAAYAAAAIAA4AAAANAAUAAAAIAA4AAAANAAYAAAAIAA4AAAAMAAYAAAAIAA4AAAAMAAcAAAAIAA4AAAAMAAUAAAAIAA4AAAANAAcAAAAIAA4AAAAIAAUAAAAIAA4AAAAHAAUAAAAIAA4AAAAHAAYAAAAIAA4AAAAHAAcAAAAIAA4AAAAIAAcAAAAIAA4AAAAIAAYAAAAIAA4AAAAEAAUAAAAIAA4AAAAEAAYAAAAIAA4AAAADAAYAAAAIAA4AAAAEAAcAAAAIAA4AAAAAAAUAAAAIAA4AAAAAAAYAAAAIAA4AAAAAAAcAAAAIAA4AAAAhABYAAAAIAA4AAAAiABYAAAAIAA4AAAAjABYAAAAIAA4AAAAkABYAAAAIAA4AAAAlABYAAAAIAA4AAAAmABYAAAAIAA4AAAAnABYAAAAIAA4AAAAnABUAAAAIAA4AAAAnABQAAAAIAA4AAAAnABMAAAAIAA4AAAAnABIAAAAIAA4AAAAmABIAAAAIAA4AAAAlABIAAAAIAA4AAAAkABIAAAAIAA4AAAAjABIAAAAIAA4AAAAiABIAAAAIAA4AAAAiABMAAAAIAA4AAAAiABQAAAAIAA4AAAAiABUAAAAIAA4AAAAmABUAAAAIAA4AAAAmABQAAAAIAA4AAAAmABMAAAAIAA4AAAAlABMAAAAIAA4AAAAkABMAAAAIAA4AAAAjABMAAAAIAA4AAAAjABQAAAAIAA4AAAAjABUAAAAIAA4AAAAkABUAAAAIAA4AAAAlABUAAAAIAA4AAAAlABQAAAAIAA4AAAAkABQAAAAIAA4AAAACABIAAAAYABcAAAADABIAAAAZABcAAAAEABIAAAAZABcAAAAFABIAAAAaABcAAAABABIAAAAaABcAAAAAABIAAAAZABcAAAAHABIAAAAYABcAAAAIABIAAAAZABcAAAAJABIAAAAZABcAAAAKABIAAAAZABcAAAALABIAAAAaABcAAAANABIAAAAYABcAAAAOABIAAAAZABcAAAAPABIAAAAZABcAAAAQABIAAAAaABcAAAASABIAAAAYABcAAAATABIAAAAZABcAAAAUABIAAAAZABcAAAAVABIAAAAZABcAAAAWABIAAAAZABcAAAAXABIAAAAaABcAAAAZABIAAAAYABcAAAAaABIAAAAZABcAAAAbABIAAAAaABcAAAAFAA0AAAAUABQAAAAOAA0AAAAUABQAAAARAA0AAAAUABQAAAAUAA0AAAAUABQAAAAgAA0AAAAUABQAAAA=")
+tile_set = SubResource("TileSet_a8ko5")
+
+[node name="HUD" parent="." instance=ExtResource("2_ve70s")]
+position = Vector2(3, 2)
+
+[node name="Player" parent="." instance=ExtResource("3_k5tsw")]
+z_index = 4
+position = Vector2(28, 45)
+
+[node name="ItemPickup" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(98, 149)
+itemType = "revAmmo"
+
+[node name="ItemPickup3" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(42, 149)
+itemType = "medpack"
+
+[node name="ItemPickup2" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(70, 149)
+itemType = "revAmmo"
+
+[node name="ItemPickup4" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(214, 275)
+itemType = "medpack"
+
+[node name="ItemPickup5" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(315, 244)
+itemType = "revAmmo"
+
+[node name="ItemPickup6" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(283, 317)
+itemType = "revAmmo"
+
+[node name="ItemPickup7" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(363, 348)
+itemType = "medpack"
+
+[node name="ItemPickup8" parent="." instance=ExtResource("4_v61ef")]
+position = Vector2(330, 148)
+itemType = "medpack"
+
+[node name="DialogueTrigger" parent="." instance=ExtResource("5_yk1q3")]
+position = Vector2(147, 41)
+Dialogue = "   Finally made it to the city"
+
+[node name="DialogueTrigger2" parent="." instance=ExtResource("5_yk1q3")]
+position = Vector2(494, 168)
+Dialogue = "Have to deal with them"
+
+[node name="DialogueTrigger3" parent="." instance=ExtResource("5_yk1q3")]
+position = Vector2(114, 267)
+Dialogue = "Theres so much!"
+
+[node name="DialogueTrigger4" parent="." instance=ExtResource("5_yk1q3")]
+position = Vector2(332, 337)
+Dialogue = "Almost there!"
+
+[node name="Level_Complete_Trigger" parent="." instance=ExtResource("6_ke7lc")]
+position = Vector2(14, 320)
+
+[node name="Level_Complete_Trigger2" parent="." instance=ExtResource("6_ke7lc")]
+position = Vector2(14, 340)
+
+[node name="Zombie" parent="." groups=["z1"] instance=ExtResource("7_6ywhx")]
+position = Vector2(355, 171)
+Triggerable = true
+
+[node name="Zombie2" parent="." groups=["z1"] instance=ExtResource("7_6ywhx")]
+position = Vector2(152, 162)
+Triggerable = true
+
+[node name="ZombieTriggerZone" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(566, 151)
+GroupName = "z1"
+
+[node name="ZombieTriggerZone2" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(584, 179)
+GroupName = "z1"
+
+[node name="ZombieTriggerZone3" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(329, 154)
+GroupName = "z2"
+
+[node name="ZombieTriggerZone4" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(328, 180)
+GroupName = "z2"
+
+[node name="Zombie3" parent="." groups=["z2"] instance=ExtResource("7_6ywhx")]
+position = Vector2(233, 110)
+Triggerable = true
+
+[node name="ZombieTriggerZone5" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(51, 235)
+GroupName = "z3"
+
+[node name="ZombieTriggerZone6" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(24, 250)
+GroupName = "z3"
+
+[node name="Zombie4" parent="." groups=["z3"] instance=ExtResource("7_6ywhx")]
+position = Vector2(194, 255)
+Triggerable = true
+
+[node name="Zombie5" parent="." groups=["z3"] instance=ExtResource("7_6ywhx")]
+position = Vector2(293, 257)
+Triggerable = true
+
+[node name="Zombie6" parent="." groups=["z4"] instance=ExtResource("7_6ywhx")]
+position = Vector2(470, 272)
+Triggerable = true
+
+[node name="ZombieTriggerZone7" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(382, 276)
+GroupName = "z4"
+
+[node name="ZombieTriggerZone8" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(382, 255)
+GroupName = "z4"
+
+[node name="Zombie7" parent="." groups=["z5"] instance=ExtResource("7_6ywhx")]
+position = Vector2(201, 329)
+Triggerable = true
+
+[node name="Zombie8" parent="." groups=["z5"] instance=ExtResource("7_6ywhx")]
+position = Vector2(96, 333)
+Triggerable = true
+
+[node name="ZombieTriggerZone9" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(453, 315)
+GroupName = "z5"
+
+[node name="ZombieTriggerZone10" parent="." instance=ExtResource("8_i8wnh")]
+position = Vector2(481, 333)
+GroupName = "z5"

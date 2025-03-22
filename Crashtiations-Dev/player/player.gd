@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 #Character speed
 @export var speed: int = 100
-@export var gunActive = true  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
+@export var gunActive = "CHANGE IN MAIN MENU PER LEVEL!!! (Look for the bool)"  #Do you want the player to have a gun, gun will be given at the end of chapter 1 to avoid annoying work
 @onready var animations = $AnimationPlayer
 
 func _ready() -> void:
