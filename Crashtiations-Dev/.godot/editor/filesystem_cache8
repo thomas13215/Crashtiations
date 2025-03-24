@@ -1,84 +1,84 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742785941
-area_2d.gd::GDScript::-1::1742772655::0::1::::<>Area2D<>::
-export_presets.cfg::TextFile::-1::1742772655::0::1::::<><>::
-icon.svg::CompressedTexture2D::4206277109818224312::1742772655::1742772696::1::::<><>::
-node_2d.gd::GDScript::-1::1742772655::0::1::::<>Node2D<>::
-player_variables.gd::GDScript::-1::1742772655::0::1::::<>Node<>::
-level_4.tscn::PackedScene::593768694839258862::1742785941::0::1::::<><>::uid://bp26v8ox1lc8n::::res://art/highwayormyway/pixil-frame-0.png<>uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn
-revolver_variables.gd::GDScript::-1::1742772655::0::1::::<>Node<>::
-::res://art/::1742773078
-2D Pickups v6.2 spritesheet.png::CompressedTexture2D::7085271080876977472::1742772655::1742772696::1::::<><>::
-Bullet.png::CompressedTexture2D::6698126806690451734::1742772655::1742772696::1::::<><>::
-City Prop Tileset update 2.png::CompressedTexture2D::4536848477362418308::1742772655::1742772696::1::::<><>::
-death3.png::CompressedTexture2D::3239065632262429373::1742772655::1742772696::1::::<><>::
-death.png::CompressedTexture2D::1454584183633215513::1742772655::1742772696::1::::<><>::
-deathhue.jpg::CompressedTexture2D::488619672135365868::1742772655::1742772696::1::::<><>::
-download (48).jpg::CompressedTexture2D::4522162862648710834::1742772655::1742772696::1::::<><>::
-g11what.jpg::CompressedTexture2D::2058522262135657987::1742772655::1742772696::1::::<><>::
-GrassTile.png::CompressedTexture2D::8811787654071051911::1742772655::1742772696::1::::<><>::
-heart_animated_1.png::CompressedTexture2D::175695023494787739::1742772655::1742772696::1::::<><>::
-mp7quierese_64x64.jpg::CompressedTexture2D::7898411937608656998::1742772655::1742772696::1::::<><>::
-pixil-frame-0.png::CompressedTexture2D::7199316710618665061::1742772655::1742772696::1::::<><>::
-playerSprites.png::CompressedTexture2D::3569873991834514515::1742772655::1742772696::1::::<><>::
-salmon.png::CompressedTexture2D::2093131785608435454::1742772655::1742772696::1::::<><>::
-winscreen.png::CompressedTexture2D::8655587666411571395::1742772655::1742772696::1::::<><>::
-ZombieSprites.png::CompressedTexture2D::478723397174058049::1742772655::1742772696::1::::<><>::
-[EMPTY WITH CASINGS] Revolver - Colt 45.png::CompressedTexture2D::4994448391091607067::1742772655::1742772696::1::::<><>::
-[SHOOT WITH MUZZLE FLASH] Revolver - Colt 45.png::CompressedTexture2D::1653748301748061564::1742772655::1742772696::1::::<><>::
-::res://art/Forest/::1742772696
-forest_night.png::CompressedTexture2D::8461487304811874491::1742772655::1742772696::1::::<><>::
-::res://art/highwayormyway/::1742781638
-pixil-frame-0.png::CompressedTexture2D::3496913022048975823::1742781457::1742781638::1::::<><>::
-roads2W.png::CompressedTexture2D::6555360645626234724::1742773195::1742773212::1::::<><>::
-::res://art/House/::1742772696
-4 BigSet.png::CompressedTexture2D::3610948069060839009::1742772655::1742772696::1::::<><>::
-4 Walls, Floor & Doors.png::CompressedTexture2D::8374191726414484722::1742772655::1742772696::1::::<><>::
-old shop objects_v1.png::CompressedTexture2D::1253217532545705177::1742772655::1742772696::1::::<><>::
-old shop tile_v1.png::CompressedTexture2D::6797387738997908194::1742772655::1742772696::1::::<><>::
-spr_fencePost.png::CompressedTexture2D::5867500270723401428::1742772655::1742772696::1::::<><>::
-::res://art/sounds/::1742772696
-Quake_ammo_pickup_remastered.wav::AudioStreamWAV::6585135824734865536::1742772655::1742772696::1::::<><>::
-reolverclick.mp3::AudioStreamMP3::7151934558146369371::1742772655::1742772696::1::::<><>::
-revolver reload.mp3::AudioStreamMP3::3144680694721847529::1742772655::1742772696::1::::<><>::
-revolvershoot.mp3::AudioStreamMP3::6539192667895068990::1742772655::1742772696::1::::<><>::
-Smallmedkit1.wav::AudioStreamWAV::3902899427315793500::1742772655::1742772696::1::::<><>::
-::res://GameplayElementsScenes/::1742772655
-dialogue_trigger.gd::GDScript::-1::1742772655::0::1::::<>Area2D<>::
-dialogue_trigger.tscn::PackedScene::3444980996592980268::1742772655::0::1::::<><>::uid://426tsl7odph3::::res://art/salmon.png<>res://GameplayElementsScenes/dialogue_trigger.gd
-hud.gd::GDScript::-1::1742772655::0::1::::<>Node2D<>::
-hud.tscn::PackedScene::5135446987814988259::1742772655::0::1::::<><>::res://GameplayElementsScenes/hud.gd<>uid://crdw3doxlp52::::res://art/heart_animated_1.png
-itempickup.gd::GDScript::-1::1742772655::0::1::::<>Sprite2D<>::
-itempickup.tscn::PackedScene::6104594495673014776::1742772655::0::1::::<><>::uid://c77fm50c6fxci::::res://art/2D Pickups v6.2 spritesheet.png<>res://GameplayElementsScenes/itempickup.gd<>uid://bvuugh7jnove7::::res://art/sounds/Smallmedkit1.wav<>uid://c025hwa1cfp3e::::res://art/sounds/Quake_ammo_pickup_remastered.wav
-level_complete_trigger.gd::GDScript::-1::1742772655::0::1::::<>Area2D<>::
-level_complete_trigger.tscn::PackedScene::2114088999444725900::1742772655::0::1::::<><>::res://GameplayElementsScenes/level_complete_trigger.gd<>uid://4lftcn0sx47x::::res://art/g11what.jpg
-zombie.gd::GDScript::-1::1742772655::0::1::::<>CharacterBody2D<>::
-zombie.tscn::PackedScene::2335367338915342625::1742772655::0::1::::<><>::res://GameplayElementsScenes/zombie.gd<>uid://g25rfdkbapwj::::res://art/ZombieSprites.png
-zombie_trigger_zone.tscn::PackedScene::3359262223573265117::1742772655::0::1::::<><>::res://area_2d.gd<>uid://dksbxqm6cye2a::::res://art/mp7quierese_64x64.jpg
-::res://music/::1742772696
-No, No, No.mp3::AudioStreamMP3::1718870154177790412::1742772655::1742772696::1::::<><>::
-::res://player/::1742785940
-bullet.tscn::PackedScene::7252163743530515216::1742772655::0::1::::<><>::uid://c2ovf1nwkksoc::::res://art/Bullet.png
-dialogue.gd::GDScript::-1::1742772655::0::1::::<>Label<>::
-dialogue_manager.gd::GDScript::-1::1742772655::0::1::::<>Control<>::
-gun.gd::GDScript::-1::1742772655::0::1::::<>Sprite2D<>::
-main_menu.gd::GDScript::-1::1742785940::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::271781147128706820::1742785940::0::1::::<><>::res://player/main_menu.gd<>uid://b5otmkcmabep3::::res://art/download (48).jpg
-player.gd::GDScript::-1::1742772655::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2172345014650403510::1742772655::0::1::::<><>::res://player/player.gd<>uid://bq4jkkmjilp6b::::res://art/playerSprites.png<>uid://xtc802q568gu::::res://art/[SHOOT WITH MUZZLE FLASH] Revolver - Colt 45.png<>res://player/gun.gd<>uid://bk2kow6stppph::::res://art/sounds/revolver reload.mp3<>uid://c85pk10wtov4n::::res://art/sounds/reolverclick.mp3<>uid://c0fvsvk1wgsiw::::res://art/sounds/revolvershoot.mp3<>res://player/dialogue.gd<>res://player/dialogue_manager.gd
-::res://scenes/::1742785941
-button.gd::GDScript::-1::1742772655::0::1::::<>Button<>::
-button_2.gd::GDScript::-1::1742772655::0::1::::<>Button<>::
-death.gd::GDScript::-1::1742772655::0::1::::<>Control<>::
-death.tscn::PackedScene::5751789186947448500::1742772655::0::1::::<><>::res://scenes/death.gd<>uid://g7xq21hu0wi3::::res://art/deathhue.jpg<>uid://bmfa65asj6bov::::res://art/death3.png<>uid://yqvsmukxhpmq::::res://music/No, No, No.mp3
-examplelevel.tscn::PackedScene::8140438879461550303::1742772655::0::1::::<><>::uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn
-level1.tscn::PackedScene::6416655065109746272::1742772655::0::1::::<><>::uid://brpf106n6d586::::res://art/House/4 BigSet.png<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://c33x8oj5ftcdm::::res://art/House/old shop tile_v1.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cpui4wjgw5i8c::::res://art/House/spr_fencePost.png<>uid://57kg78vgnbw5::::res://player/player.tscn
-Level2.tscn::PackedScene::1969304520606479337::1742772655::0::1::::<><>::uid://c33x8oj5ftcdm::::res://art/House/old shop tile_v1.png<>uid://cpui4wjgw5i8c::::res://art/House/spr_fencePost.png<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://r4ckr8axpnwr::::res://art/House/old shop objects_v1.png<>uid://datnxuyldix3b::::res://art/pixil-frame-0.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
-level3.tscn::PackedScene::6879509437038198127::1742785941::0::1::::<><>::uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
-level_5.tscn::PackedScene::5831407611532109469::1742785941::0::1::::<><>::res://GameplayElementsScenes/hud.gd<>uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://bp26v8ox1lc8n::::res://art/highwayormyway/pixil-frame-0.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
-level_7.tscn::PackedScene::7956759200963291523::1742785941::0::1::::<><>::uid://b5vxh4ybdfw25::::res://art/City Prop Tileset update 2.png<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn
-level_win_screen.gd::GDScript::-1::1742772655::0::1::::<>Control<>::
-level_win_screen.tscn::PackedScene::4893232662876831276::1742772655::0::1::::<><>::uid://dvk3i8q2wsbk2::::res://art/winscreen.png<>res://scenes/level_win_screen.gd
-sim_enemy.gd::GDScript::-1::1742772655::0::1::::<>Button<>::
-tutorial.tscn::PackedScene::3479947705528876963::1742772655::0::1::::<><>::uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn
-world.tscn::PackedScene::5713539708242177892::1742772655::0::1::::<><>::uid://57kg78vgnbw5::::res://player/player.tscn<>res://GameplayElementsScenes/hud.gd<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn
+::res://::1742796620
+area_2d.gd::GDScript::-1::1742790150::0::1::::<>Area2D<>::
+export_presets.cfg::TextFile::-1::1742790150::0::1::::<><>::
+icon.svg::CompressedTexture2D::4206277109818224312::1742790150::1742790353::1::::<><>::
+node_2d.gd::GDScript::-1::1742790150::0::1::::<>Node2D<>::
+player_variables.gd::GDScript::-1::1742790150::0::1::::<>Node<>::
+revolver_variables.gd::GDScript::-1::1742790150::0::1::::<>Node<>::
+::res://art/::1742790354
+2D Pickups v6.2 spritesheet.png::CompressedTexture2D::7085271080876977472::1742790150::1742790354::1::::<><>::
+Bullet.png::CompressedTexture2D::6698126806690451734::1742790150::1742790353::1::::<><>::
+City Prop Tileset update 2.png::CompressedTexture2D::4536848477362418308::1742790150::1742790353::1::::<><>::
+death3.png::CompressedTexture2D::3239065632262429373::1742790150::1742790353::1::::<><>::
+death.png::CompressedTexture2D::1454584183633215513::1742790150::1742790353::1::::<><>::
+deathhue.jpg::CompressedTexture2D::488619672135365868::1742790150::1742790352::1::::<><>::
+download (48).jpg::CompressedTexture2D::4522162862648710834::1742790150::1742790352::1::::<><>::
+g11what.jpg::CompressedTexture2D::2058522262135657987::1742790150::1742790352::1::::<><>::
+GrassTile.png::CompressedTexture2D::8811787654071051911::1742790150::1742790352::1::::<><>::
+heart_animated_1.png::CompressedTexture2D::175695023494787739::1742790150::1742790352::1::::<><>::
+mp7quierese_64x64.jpg::CompressedTexture2D::7898411937608656998::1742790150::1742790352::1::::<><>::
+pixil-frame-0.png::CompressedTexture2D::7199316710618665061::1742790150::1742790352::1::::<><>::
+playerSprites.png::CompressedTexture2D::3569873991834514515::1742790150::1742790352::1::::<><>::
+salmon.png::CompressedTexture2D::2093131785608435454::1742790150::1742790352::1::::<><>::
+winscreen.png::CompressedTexture2D::8655587666411571395::1742790150::1742790353::1::::<><>::
+ZombieSprites.png::CompressedTexture2D::478723397174058049::1742790150::1742790353::1::::<><>::
+[EMPTY WITH CASINGS] Revolver - Colt 45.png::CompressedTexture2D::4994448391091607067::1742790150::1742790353::1::::<><>::
+[SHOOT WITH MUZZLE FLASH] Revolver - Colt 45.png::CompressedTexture2D::1653748301748061564::1742790150::1742790353::1::::<><>::
+::res://art/Forest/::1742790354
+forest_night.png::CompressedTexture2D::8461487304811874491::1742790150::1742790354::1::::<><>::
+::res://art/highwayormyway/::1742790354
+pixil-frame-0.png::CompressedTexture2D::3496913022048975823::1742790150::1742790354::1::::<><>::
+roads2W.png::CompressedTexture2D::6555360645626234724::1742790150::1742790354::1::::<><>::
+::res://art/House/::1742790354
+4 BigSet.png::CompressedTexture2D::3610948069060839009::1742790150::1742790354::1::::<><>::
+4 Walls, Floor & Doors.png::CompressedTexture2D::8374191726414484722::1742790150::1742790354::1::::<><>::
+old shop objects_v1.png::CompressedTexture2D::1253217532545705177::1742790150::1742790354::1::::<><>::
+old shop tile_v1.png::CompressedTexture2D::6797387738997908194::1742790150::1742790354::1::::<><>::
+spr_fencePost.png::CompressedTexture2D::5867500270723401428::1742790150::1742790354::1::::<><>::
+::res://art/sounds/::1742790355
+Quake_ammo_pickup_remastered.wav::AudioStreamWAV::6585135824734865536::1742790150::1742790355::1::::<><>::
+reolverclick.mp3::AudioStreamMP3::7151934558146369371::1742790150::1742790351::1::::<><>::
+revolver reload.mp3::AudioStreamMP3::3144680694721847529::1742790150::1742790351::1::::<><>::
+revolvershoot.mp3::AudioStreamMP3::6539192667895068990::1742790150::1742790351::1::::<><>::
+Smallmedkit1.wav::AudioStreamWAV::3902899427315793500::1742790150::1742790355::1::::<><>::
+::res://GameplayElementsScenes/::1742796334
+dialogue_trigger.gd::GDScript::-1::1742790150::0::1::::<>Area2D<>::
+dialogue_trigger.tscn::PackedScene::3444980996592980268::1742790150::0::1::::<><>::uid://426tsl7odph3::::res://art/salmon.png<>res://GameplayElementsScenes/dialogue_trigger.gd
+hud.gd::GDScript::-1::1742790150::0::1::::<>Node2D<>::
+hud.tscn::PackedScene::5135446987814988259::1742790150::0::1::::<><>::res://GameplayElementsScenes/hud.gd<>uid://crdw3doxlp52::::res://art/heart_animated_1.png
+itempickup.gd::GDScript::-1::1742790150::0::1::::<>Sprite2D<>::
+itempickup.tscn::PackedScene::6104594495673014776::1742790150::0::1::::<><>::uid://c77fm50c6fxci::::res://art/2D Pickups v6.2 spritesheet.png<>res://GameplayElementsScenes/itempickup.gd<>uid://bvuugh7jnove7::::res://art/sounds/Smallmedkit1.wav<>uid://c025hwa1cfp3e::::res://art/sounds/Quake_ammo_pickup_remastered.wav
+level_complete_trigger.gd::GDScript::-1::1742790150::0::1::::<>Area2D<>::
+level_complete_trigger.tscn::PackedScene::2114088999444725900::1742790150::0::1::::<><>::res://GameplayElementsScenes/level_complete_trigger.gd<>uid://4lftcn0sx47x::::res://art/g11what.jpg
+zombie.gd::GDScript::-1::1742790150::0::1::::<>CharacterBody2D<>::
+zombie.tscn::PackedScene::2335367338915342625::1742790150::0::1::::<><>::res://GameplayElementsScenes/zombie.gd<>uid://g25rfdkbapwj::::res://art/ZombieSprites.png
+zombie_trigger_zone.tscn::PackedScene::3359262223573265117::1742796334::0::1::::<><>::res://area_2d.gd<>uid://dksbxqm6cye2a::::res://art/mp7quierese_64x64.jpg
+::res://music/::1742790351
+No, No, No.mp3::AudioStreamMP3::1718870154177790412::1742790150::1742790351::1::::<><>::
+::res://player/::1742796333
+bullet.tscn::PackedScene::7252163743530515216::1742790150::0::1::::<><>::uid://c2ovf1nwkksoc::::res://art/Bullet.png
+dialogue.gd::GDScript::-1::1742790150::0::1::::<>Label<>::
+dialogue_manager.gd::GDScript::-1::1742790150::0::1::::<>Control<>::
+gun.gd::GDScript::-1::1742790150::0::1::::<>Sprite2D<>::
+main_menu.gd::GDScript::-1::1742790150::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::271781147128706820::1742796333::0::1::::<><>::res://player/main_menu.gd<>uid://b5otmkcmabep3::::res://art/download (48).jpg
+player.gd::GDScript::-1::1742790150::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2172345014650403510::1742790150::0::1::::<><>::res://player/player.gd<>uid://bq4jkkmjilp6b::::res://art/playerSprites.png<>uid://xtc802q568gu::::res://art/[SHOOT WITH MUZZLE FLASH] Revolver - Colt 45.png<>res://player/gun.gd<>uid://bk2kow6stppph::::res://art/sounds/revolver reload.mp3<>uid://c85pk10wtov4n::::res://art/sounds/reolverclick.mp3<>uid://c0fvsvk1wgsiw::::res://art/sounds/revolvershoot.mp3<>res://player/dialogue.gd<>res://player/dialogue_manager.gd
+::res://scenes/::1742796620
+button.gd::GDScript::-1::1742790150::0::1::::<>Button<>::
+button_2.gd::GDScript::-1::1742790150::0::1::::<>Button<>::
+death.gd::GDScript::-1::1742790150::0::1::::<>Control<>::
+death.tscn::PackedScene::5751789186947448500::1742790150::0::1::::<><>::res://scenes/death.gd<>uid://g7xq21hu0wi3::::res://art/deathhue.jpg<>uid://bmfa65asj6bov::::res://art/death3.png<>uid://yqvsmukxhpmq::::res://music/No, No, No.mp3
+examplelevel.tscn::PackedScene::8140438879461550303::1742790150::0::1::::<><>::uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn
+level1.tscn::PackedScene::6416655065109746272::1742790150::0::1::::<><>::uid://brpf106n6d586::::res://art/House/4 BigSet.png<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://c33x8oj5ftcdm::::res://art/House/old shop tile_v1.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cpui4wjgw5i8c::::res://art/House/spr_fencePost.png<>uid://57kg78vgnbw5::::res://player/player.tscn
+Level2.tscn::PackedScene::1969304520606479337::1742790150::0::1::::<><>::uid://c33x8oj5ftcdm::::res://art/House/old shop tile_v1.png<>uid://cpui4wjgw5i8c::::res://art/House/spr_fencePost.png<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://r4ckr8axpnwr::::res://art/House/old shop objects_v1.png<>uid://datnxuyldix3b::::res://art/pixil-frame-0.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
+level3.tscn::PackedScene::6879509437038198127::1742796333::0::1::::<><>::uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
+level5.tscn::PackedScene::593768694839258862::1742796334::0::1::::<><>::uid://bp26v8ox1lc8n::::res://art/highwayormyway/pixil-frame-0.png<>uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn
+level_5.tscn::PackedScene::5831407611532109469::1742796334::0::1::::<><>::res://GameplayElementsScenes/hud.gd<>uid://dss2pvm6s2vxb::::res://art/Forest/forest_night.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://bp26v8ox1lc8n::::res://art/highwayormyway/pixil-frame-0.png<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn
+level_7.tscn::PackedScene::7956759200963291523::1742796334::0::1::::<><>::uid://b5vxh4ybdfw25::::res://art/City Prop Tileset update 2.png<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn
+level_win_screen.gd::GDScript::-1::1742790150::0::1::::<>Control<>::
+level_win_screen.tscn::PackedScene::4893232662876831276::1742790150::0::1::::<><>::uid://dvk3i8q2wsbk2::::res://art/winscreen.png<>res://scenes/level_win_screen.gd
+sim_enemy.gd::GDScript::-1::1742790150::0::1::::<>Button<>::
+tutorial.tscn::PackedScene::3479947705528876963::1742790150::0::1::::<><>::uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://57kg78vgnbw5::::res://player/player.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://5ec0b6a6qpiq::::res://GameplayElementsScenes/level_complete_trigger.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn
+world.tscn::PackedScene::5713539708242177892::1742790150::0::1::::<><>::uid://57kg78vgnbw5::::res://player/player.tscn<>res://GameplayElementsScenes/hud.gd<>uid://dxsq4cwrxwto6::::res://art/GrassTile.png<>uid://8jjfnwimn4lp::::res://GameplayElementsScenes/zombie.tscn<>uid://bn4is8cy1f5a4::::res://GameplayElementsScenes/zombie_trigger_zone.tscn<>uid://cffwcdg1os86r::::res://GameplayElementsScenes/hud.tscn<>uid://cs8d1rbs4cdee::::res://GameplayElementsScenes/itempickup.tscn<>uid://bpc1ll0t2b6vo::::res://GameplayElementsScenes/dialogue_trigger.tscn

@@ -57,19 +57,19 @@ func _on_level_2_pressed() -> void:
 
 
 func _on_level_3_pressed() -> void:
-	levelStart("res://scenes/level2.tscn", true)
+	levelStart("res://scenes/level3.tscn", true)
 
 
 func _on_level_4_pressed() -> void:
-	levelStart("res://scenes/level_4.tscn", true)
+	levelStart("res://scenes/level4.tscn", true)
 
 
 func _on_level_5_pressed() -> void:
-	levelStart("res://scenes/level_5.tscn", true)
+	levelStart("res://scenes/level5.tscn", true)
 
 
 func _on_level_6_pressed() -> void:
-	pass # Replace with function body.
+	levelStart("res://scenes/level6.tscn", true)
 
 
 func _on_level_7_pressed() -> void:
